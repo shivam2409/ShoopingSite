@@ -1,0 +1,173 @@
+body{
+    background: white;
+    margin: auto;
+}
+.clr
+{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    
+}
+ul
+{
+    list-style: none;
+}
+#main-header{
+    background-color: wheat;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.top ul{
+    float: right;
+    /* display: inline; */
+    list-style: none;
+    /* padding: 15px; */
+}
+.top li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+.top a{
+    text-decoration: none;
+}
+.top-left{
+    float: left;
+    font-weight: inherit;
+    width: 150px;
+    height: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.top-left img{
+    width: 100px;
+}
+.top-right ul{
+    float: right;
+    /* display: inline; */
+    list-style: none;
+    padding: 0 15px;
+}
+.top-right li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+
+}
+
+.search{
+    float: right;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+}
+.top-right a{
+    text-decoration: none;
+}
+
+.img h1{
+    text-align: center;
+    border: 1px dotted black;
+}
+.container
+{
+    padding-top: 50px;
+} 
+.container p{
+    font-size: small;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+.container a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+}
+#wrapper p{
+    text-align: center;
+    color: red;
+    position: absolute;
+    bottom: 0;  
+}
+.onClick 
+{
+    text-align: center;
+    background-position: center;
+    margin: 5px;
+    padding: 15px;
+}
+.onClick a{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.onClick a:hover{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding: 8px;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(150px,auto);
+}
+#footer h3{
+    color: white;
+    text-align: left;
+}
+#footer p{
+    color: silver;
+    align-self: auto;
+    text-align: left;
+    font-size: small;
+}
+#footer .c-1{
+    
+    margin-right: 50px;
+    text-align: left;
+}
+#footer .c-2{
+    margin-left: 50px;
+    text-align: left;
+}
+#footer .c-3{
+    align-self: auto;
+    text-align: left;
+}
+#footer .c-4{
+    align-items: flex-end;
+}
+#footer .c-4 img{
+    height: 50px;
+    width: 100px;
+    display: grid;
+    float: left;
+}
+#footer .c-4 p{
+    color: silver;
+    align-self: auto;
+    font-size: 10px;
+    text-align: left;
+    float: right;
+    padding-right: 170px;
+}

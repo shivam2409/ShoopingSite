@@ -1,0 +1,552 @@
+
+/* .box{
+    width: 500px;
+    height: 500px;
+    background: pink;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.close{
+    background-color: beige;
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding: 15px;
+}
+.box p{
+    color: black;
+    
+} */
+/* .contact
+body{
+    background: white;
+    margin: auto;
+}
+body:after{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center center;
+} */
+
+.loda{
+    transition: filter .5s ease;
+}
+
+#wrapper div:hover{
+    transform: scale(1.2);
+
+ }
+
+#button{
+    display: none
+}
+
+ #wrapper div:hover #button{
+    display: block
+    
+ }
+
+
+ #wrapper div{
+    background: #fff;
+    transition: all .3s ease;
+}
+
+/* for log in box*/
+.contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 250px;
+    padding: 80px 40px;
+    display: none;
+    position: fixed;
+    background: white;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+#close{
+        position: absolute;
+        background: red;
+        color: white;
+        top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    outline: 0
+}
+.contact h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 20px;
+    color: #000;
+    text-align: center;
+}
+.contact p{
+
+    margin: 0;
+    padding: 0;
+    color: #000; 
+}
+.contact input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #000;
+    font-size: 15px;
+    width: 300px;
+}
+.contact input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #000;
+    font-size: 15px;
+    width: 300px;
+
+}
+
+.contact input[type="submit"]
+{
+   height: 30px;
+   width: 200px;
+   color: #fff;
+   font-size: 15px;
+   background:blue;
+   cursor: pointer;
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   margin-top: 15px;
+}
+
+/* css for main */
+.clr
+{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+#main-header{
+    background-color: wheat;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.top ul{
+    float: right;
+    /* display: inline; */
+    list-style: none;
+    /* padding: 15px; */
+}
+.top li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+.top a{
+    text-decoration: none;
+}
+.top-left{
+    float: left;
+    font-weight: inherit;
+    width: 150px;
+    height: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.top-left img{
+    width: 100px;
+}
+.top-right ul{
+    float: right;
+    display: inline;
+    list-style: none;
+    padding: 0 15px;
+}
+.top-right li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+
+}
+
+.search{
+    float: right;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+}
+.top-right a{
+    text-decoration: none;
+}
+
+.img h1{
+    text-align: center;
+    border: 1px dotted black;
+}
+.container
+{
+    padding-top: 50px;
+} 
+.container p{
+    font-size: small;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+.container a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: minmax(100px,auto);
+    grid-gap: 2em;
+    justify-items: stretch;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* #wrapper :hover{
+    scrollbar-highlight-color: */
+
+    #button{
+        background:maroon;
+        color: #fff;
+        padding: 15px 20px;
+        font-family: sans-serif;
+        outline: 0;
+    }
+    /* #button:hover{
+        background: #fff;
+        color: #000;
+        padding: 15px;
+    } */
+    #button{
+        display: none
+    }
+    
+     #wrapper div:hover #button{
+        display: block;
+        margin: auto
+        
+     }
+    
+.box-one{
+    text-align: center;
+    align-self: auto;
+    border: 1px solid black;
+}
+.box-two,.box-three{
+    text-align: center;
+    align-self: auto;
+    border: 1px solid black;
+}
+.box-four{
+    align-self: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.box-five{
+    align-self: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.box-six{
+    align-self: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+#wrapper p{
+    text-align: center;
+    color: red;
+}
+.onClick 
+{
+    text-align: center;
+    background-position: center;
+    margin: 5px;
+    padding: 15px;
+}
+.onClick a{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.onClick a:hover{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding: 8px;
+}
+#shopBy div>h3{
+    text-align: center;
+    font: xx-large;
+    padding: 15px;
+}
+#ShopBy{
+/* margin:0px; */
+    width:100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: minmax(100px,auto);
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    /* padding-left: 60px; */
+    justify-items: center
+}
+#ShopBy ul{
+    padding: 0%;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.6);
+    background: rgba(0,0,0,0.3);
+}
+#ShopBy .s-1{
+    margin-left: 25px;
+    background-image: url("../img/vans-man.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-1 h3{
+    color: aliceblue;
+}
+#ShopBy .s-1 a{
+    color: aquamarine;
+}
+#ShopBy .s-1 a:hover{
+    color: chartreuse;
+}
+
+.img video{
+    width: 100%
+}
+
+#ShopBy .s-2{
+    margin-left: 25px;
+    background-image: url("../img/vans-girl.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-2 h3{
+    color: aliceblue;
+}
+#ShopBy .s-2 a{
+    color: aquamarine;
+}
+#ShopBy .s-2 a:hover{
+    color: chartreuse;
+}#ShopBy .s-3{
+    margin-left: 25px;  
+    background-image: url("../img/vans-kids.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-3 h3{
+    color: aliceblue;
+}
+#ShopBy .s-3 a{
+    color: aquamarine;
+}
+#ShopBy .s-3 a:hover{
+    color: chartreuse;
+}#ShopBy .s-4{
+    margin-left: 25px;
+    background-image: url("../img/vans-skates.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-4 h3{
+    color: aliceblue;
+}
+#ShopBy .s-4 a{
+    color: aquamarine;
+}
+#ShopBy .s-4 a:hover{
+    color: chartreuse;
+}#ShopBy .s-5{
+    margin-left: 25px;
+    background-image: url("../img/vnas-classic.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-5 h3{
+    color: aliceblue;
+}
+#ShopBy .s-5 a{
+    color: aquamarine;
+}
+#ShopBy .s-5 a:hover{
+    color: chartreuse;
+}#ShopBy .s-6{
+    margin-left: 25px;
+    background-image: url("../img/vans-customs.jpg");
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#ShopBy .s-6 h3{
+    color: aliceblue;
+}
+#ShopBy .s-6 a{
+    color: aquamarine;
+}
+#ShopBy .s-6 a:hover{
+    color: chartreuse;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(150px,auto);
+}
+#footer h3{
+    color: white;
+    text-align: left;
+}
+#footer p{
+    color: silver;
+    align-self: auto;
+    text-align: left;
+    font-size: small;
+}
+#footer .c-1{
+    
+    margin-right: 50px;
+    text-align: left;
+}
+#footer .c-2{
+    margin-left: 50px;
+    text-align: left;
+}
+#footer .c-3{
+    align-self: auto;
+    text-align: left;
+}
+#footer .c-4{
+    align-items: flex-end;
+}
+#footer .c-4 img{
+    height: 50px;
+    width: 100px;
+    display: grid;
+    float: left;
+}
+#footer .c-4 p{
+    color: silver;
+    align-self: auto;
+    font-size: 10px;
+    text-align: left;
+    float: right;
+    padding-right: 170px;
+}
+.icon{
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right:3%;
+  display: grid;
+  /* height: 1px;
+  width: 1px; */
+}
+.icon a{
+    height: 40px;
+    width: 40px;
+}
+.icon img{
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    /* position: fixed; */
+    padding: 30px;
+}
+.faq{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 800px;
+        height: 500px;
+        padding: 80px 40px;
+        display: none;
+        position: fixed;
+        background: #333333;
+        color: #000;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        border-radius: 4px;
+    
+}
+.faq h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+    padding: 0 0 20px;
+    color: white;
+    text-align: center;
+}
+.pay input[type="button"]
+{
+   height: 30px;
+   width: 200px;
+   color: #fff;
+   font-size: 15px;
+   background:blue;
+   cursor: pointer;
+   
+   border: none;
+   outline: none;
+   margin-top: 15px;
+}
+/* .faq .pay{
+    float: left;
+} 
+.faq .ship{
+    float: right;
+} */

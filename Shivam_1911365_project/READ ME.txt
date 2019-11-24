@@ -1,0 +1,9 @@
+You can direcly access to website and order.
+you can also log in by= admin and 12345.
+It will show user name on main screen.
+you have search by item names in search page.
+you can add items by clicking on add item and you have to click on make payment to go to payment info.
+you have to give correct format for order item.
+
+
+

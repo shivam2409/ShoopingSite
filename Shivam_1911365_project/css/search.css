@@ -1,0 +1,384 @@
+body{
+    background: white;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.clr
+{
+    clear: both;
+}
+a{
+    text-decoration: none;
+
+}
+#wrapper div:hover{
+   transform: scale(1.2);
+}
+
+ul
+{
+    list-style: none;
+}
+#main-header{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+
+}
+.search input{
+    padding: 5px;
+    height: 25px;
+    width: 300px;
+    border-radius: 25px;
+    align-content: center;
+    outline: 0;
+    border: 1px solid #000;
+}
+#right1{
+    height: 40px;
+    width: 40px;
+    float: right;
+    /* .icon{
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        right:3%;
+        display: grid;
+        /* height: 1px;
+        width: 1px; */
+      /* }
+      .icon a{
+          height: 40px;
+          width: 40px;
+      }
+      .icon img{
+          height: 30px;
+          width: 30px;
+          top: 50%;
+          /* position: fixed; */
+          /* padding: 30px;
+      } */ 
+}
+.top
+{
+    padding-top: 25px;
+    padding-left: 300px;
+    padding-right: 20px;
+}
+.top li{
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.top-left{
+    float: left;
+    font-weight: inherit;
+    width: 150px;
+    height: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+.top-left img{
+    width: 100px;
+}
+.top-right{
+    float: right;
+    width: 150px;
+    height: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+.top-right ul{
+    /* float: right; */
+    display: inline;
+    list-style: none;
+    padding: 0 15px;
+}
+.top-right li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+
+}
+.cancel{
+    background-image: url(../img/facebook.png);
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    margin: auto;
+    font-weight: normal;
+    overflow: none;
+    margin-top:20px;
+    width: 90%;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 400px;
+    border-radius: 5px;
+    /* border:1px solid red; */
+    box-shadow: inset 0px 0px 10px white;
+    
+}
+.cart{
+    font-family:sans-serif;
+    text-align: center;
+    display: none;
+    width: 900px;
+    height: 600px;   
+    /* overflow: scroll;     */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:black;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+.cart h1{
+    text-align: center;
+    padding: 0;
+    font-weight: normal;
+
+    /* border: 1px solid white; */
+}
+/* .cart input{
+    position: fixed;
+} */
+
+#right{
+    float: right;
+}
+
+
+
+.top image{
+    list-style: none;
+    display: inline;
+    /* padding: 0 15px; */
+}
+
+.container
+{
+    padding-top: 40px;
+} 
+.container p{
+    font-size: small;
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+.container a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+/* BODY */
+.button{
+    background:maroon;
+    color: #fff;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    outline: 0;
+}
+/* #button:hover{
+    background: #fff;
+    color: #000;
+    padding: 15px;
+} */
+#wrapper{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: minmax(100px,auto);
+    grid-gap: 2em;
+    justify-items: stretch;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#button{
+    display: none
+}
+
+ #wrapper div:hover #button{
+    display: block;
+    margin: auto
+    
+ }
+
+#wrapper img{
+    margin-top: 2px
+    
+    /* height: 284px;
+    width: 184px; */
+}
+.boxx{
+    text-align: center;
+    align-self: auto;
+    border: 1px solid black;
+}
+
+#wrapper div{
+    background: #fff;
+    transition: all .3s ease;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    padding-top: 25px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(150px,auto);
+}
+#footer h3{
+    color: white;
+    text-align: left;
+}
+#footer p{
+    color: silver;
+    align-self: auto;
+    text-align: left;
+    font-size: small;
+}
+#footer .c-1{
+
+    margin-right: 50px;
+    text-align: left;
+}
+#footer .c-2{
+    margin-left: 50px;
+    text-align: left;
+}
+#footer .c-3{
+    align-self: auto;
+    text-align: left;
+}
+#footer .c-4{
+    align-items: flex-end;
+}
+#footer .c-4 img{
+    height: 50px;
+    width: 100px;
+    display: grid;
+    float: left;
+}
+#footer .c-4 p{
+    color: silver;
+    align-self: auto;
+    font-size: 10px;
+    text-align: left;
+    float: right;
+    padding-right: 170px;
+}
+.faq{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 730px;
+    height: 500px;
+    display: none;   
+    position: fixed;
+    background:black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+td{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+#closeForm{
+    position: absolute;
+    background: red;
+    color: white;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    outline: 0
+}
+.band{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    /* background-image: url("../img/close-window.png"); */
+}
+.band img{ 
+    width: 30px;
+    height: 30px;
+}
+.pay ,.ship {
+    border: 1px solid #333333
+}
+.faq h1{
+    font-family: sans-serif;
+font-weight: normal;
+margin: 0;
+padding: 0 0 20px;
+color: white;
+text-align: center;
+}
+.faq h2{
+font-family: sans-serif;
+font-weight: normal;
+margin: 0;
+padding: 0 0 20px;
+color: white;
+text-align: center;
+}
+.faq input
+{
+    height: 30px;
+    width: 350px;
+    margin: 4px;
+}
+input[type="reset"]
+{
+    color: white;
+    background-color: blue;
+}
+#done
+{
+    font-weight: bold;
+    color:wheat;
+    background-color: blue;
+}
+input[name="payment"]
+{
+background: #000;
+color: white;
+width: 60%;
+padding: 10px 15px;
+margin-top:20px;
+}
+
+.faq .pay{
+float: left;
+} 
+.faq .ship{
+float: right;
+}
